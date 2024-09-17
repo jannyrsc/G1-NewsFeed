@@ -1,0 +1,2 @@
+- Os usuários podem se cadastrar, autenticar via JWT, definir preferências de categorias e visualizar notícias personalizadas. 
+- O sistema armazena as notícias na base de dados, atualizando automaticamente a cada hora, e exibe tanto notícias categorizadas quanto todas as notícias caso nenhuma preferência esteja definida.
