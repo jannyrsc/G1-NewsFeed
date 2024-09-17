@@ -1,0 +1,6 @@
+<http auto-config="true" use-expressions="true">
+    <intercept-url pattern="/auth" access="permitAll" />
+    <intercept-url pattern="/**" access="isAuthenticated()" />
+    <csrf disabled="true"/>
+    <!-- Outras configurações de segurança -->
+</http>

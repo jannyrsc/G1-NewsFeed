@@ -1,0 +1,116 @@
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  padding: 20px;
+}
+
+.register-form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-form h1 {
+  color: #800733;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.register-form legend {
+  font-size: 16px;
+  color: #800733;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(128, 7, 51, 0.6); 
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.register-form input:focus {
+  border-color: #800733; 
+  box-shadow: 0 0 5px rgba(128, 7, 51, 0.5); 
+  outline: none;
+}
+
+.register-form input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #800733;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.register-form button:hover {
+  background-color: #850121;
+}
+
+.register-form fieldset {
+  border: 1px solid #800733;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.register-form fieldset label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-right: 15px; 
+  width: 45%; 
+}
+
+.login-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #b1002a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-link a:hover {
+  color: #a3001b;
+  text-decoration: underline;
+}
+
+.error {
+  color: #b1002a;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}

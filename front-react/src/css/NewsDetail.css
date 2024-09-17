@@ -1,0 +1,35 @@
+.news-detail-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #800733;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.news-detail-image-container {
+display: flex;
+justify-content: center;
+margin: 20px 0;
+}
+
+.news-detail-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.news-detail-content {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.news-detail-date {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}

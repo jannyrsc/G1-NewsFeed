@@ -1,0 +1,116 @@
+.login-page {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    background: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+}
+
+.image-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5; 
+    box-sizing: border-box; 
+}
+
+.image-side img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.form-side label {
+    font-size: 14px; 
+    margin-bottom: 5px;
+}
+
+.form-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+    background: #ffffff; 
+    box-sizing: border-box; 
+}
+
+.form-side h1 {
+    color: #800733;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-side input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(128, 7, 51, 0.6); 
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.form-side input:focus {
+    border-color: #800733; 
+    box-shadow: 0 0 5px rgba(128, 7, 51, 0.5); 
+    outline: none;
+}
+
+.form-side button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #800733;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 0;
+    box-sizing: border-box; 
+}
+
+.form-side button:focus {
+    border-color: #800733;
+    outline: none;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer a {
+    color: #b1002a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #a3001b;
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #b1002a; 
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center; 
+}
+

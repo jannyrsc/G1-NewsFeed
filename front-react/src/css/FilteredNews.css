@@ -1,0 +1,21 @@
+.category-filter select {
+  padding: 8px 5px;
+  font-size: 0.7rem;
+  border: 2px solid #800733;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-filter select:focus {
+  border-color: #b1002a;
+  outline: none;
+}
+
+.category-filter option {
+  font-size: 0.7rem;
+  padding: 10px;
+  color: #800733;
+}
